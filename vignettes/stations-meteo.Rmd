@@ -1,0 +1,16 @@
+---
+title: "Stations meteo"
+output: html_notebook
+---
+
+
+```{r, message=FALSE}
+library(tidyverse)
+library(dgfr)
+```
+
+
+```{r}
+plot_stations_meteo(file = "https://data.toulouse-metropole.fr/explore/dataset/1-station-meteopole/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=true")
+```
+
